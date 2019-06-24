@@ -559,13 +559,13 @@ img{
 	width: 100%;
 }
 
-@media (min-width:768px){
+
 	.team-row{
 		margin-right: -15px;
 	  margin-left: -15px;
 	  padding: 5% 20%;
 	}
-}
+
 
 
 
