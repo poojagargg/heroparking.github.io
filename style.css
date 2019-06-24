@@ -559,18 +559,12 @@ img{
 	width: 100%;
 }
 
-
-	.team-row{
-		margin-right: -15px;
-	  margin-left: -15px;
-	  padding: 5% 20%;
-	}
-
-@media (max-width:1080px){
-	.team-row{
+@media(max-width:768px){
+	.taem-row{
 		padding: 0 20%;
 	}
 }
+
 
 
 .btn-primary:hover,
