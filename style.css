@@ -566,7 +566,7 @@ img{
 	  padding: 5% 20%;
 	}
 
-@media (max-width:576px){
+@media (max-width:1080px){
 	.team-row{
 		padding: 0 20%;
 	}
