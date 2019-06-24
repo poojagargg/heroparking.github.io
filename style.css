@@ -562,7 +562,7 @@ img{
 .team-row{
 	margin-right: -15px;
   margin-left: -15px;
-  padding: 0 20%;
+  padding: 5% 20%;
 }
 
 
@@ -587,8 +587,7 @@ img{
 #team .card {
     border: none;
 	background: #ffffff;
-	height: 300px;
-	width: 300px;
+
 }
 
 .image-flip:hover .backside,
