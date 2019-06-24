@@ -566,7 +566,11 @@ img{
 	  padding: 5% 20%;
 	}
 
-
+@media (max-width:576px){
+	.team-row{
+		padding: 0 20%;
+	}
+}
 
 
 .btn-primary:hover,
