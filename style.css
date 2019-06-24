@@ -590,9 +590,7 @@ img{
 	height: 300px;
 	width: 300px;
 }
-.row{
-	padding: 0 20 px;
-}
+
 .image-flip:hover .backside,
 .image-flip.hover .backside {
     -webkit-transform: rotateY(0deg);
