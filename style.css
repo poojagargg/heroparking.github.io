@@ -554,6 +554,15 @@ img{
 /*--------------------*/
 #team {
 	background: #eee !important;
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+.team-row{
+	margin-right: -15px;
+  margin-left: -15px;
+  padding: 0 20%;
 }
 
 
@@ -577,9 +586,12 @@ img{
 }
 #team .card {
     border: none;
-    background: #ffffff;
+	background: #ffffff;
+	height: 300px;
 }
-
+.row{
+	padding: 0 20 px;
+}
 .image-flip:hover .backside,
 .image-flip.hover .backside {
     -webkit-transform: rotateY(0deg);
@@ -654,7 +666,7 @@ img{
 
 .frontside .card,
 .backside .card {
-	min-height: 312px;
+	min-height: 212px;
 	padding: 20px 0;
 }
 
