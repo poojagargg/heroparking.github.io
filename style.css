@@ -549,19 +549,95 @@ img {
 .howit-works-video {
 	background: rgba(0, 0, 0, 0) url("assets/images/macbook-pro.png") no-repeat scroll center 100% / 100% auto;
 	margin: 0 auto;
-	max-width: 700px;
 	padding: 70px 0 60px;
 	position: relative;
 	z-index: 10;
 }
 
 
-.howit-works-video iframe {
-	border: medium none;
-	margin-bottom: 20px;
-	margin-left: 135px;
-	width: 428px;
+
+
+
+/* --------------------------
+:: 6.0 Video Area CSS
+-------------------------- */
+
+.video-area {
+    position: relative;
+	z-index: 1;
+	width: 80%;
+	margin: 0 auto;
+    background-position: center center;
+    background-size: cover;
+    border: 20px solid #fff;
+    border-radius: 20px;
+	height: 650px;
+    -webkit-box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
+	box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
+	background-color: #fff;
 }
+
+
+
+
+
+
+#atlanticlight {
+	position: relative;
+	font-size: 0;
+	margin: auto auto;
+	height: 100%;
+  }
+  
+  #atlanticlight video,
+  #atlanticlight button {
+	width: 100%;
+  }
+  #atlanticlight button {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+
+  #atlanticlight button svg {
+	width: 25%;
+	margin: auto;
+  }
+  
+  #atlanticlight video,
+  #atlanticlight button {
+	position: absolute;
+  }
+  
+  #atlanticlight button {
+	background: transparent;
+	outline: none;
+	border: none;
+	cursor: pointer;
+  }
+  
+  #atlanticlight button svg {
+	  margin-top: auto;
+	fill: #fff;
+	padding: 3rem;
+	transition: .6s opacity;
+  }
+  
+  #playpause {
+	display: none;
+  }
+  
+  .playing {
+	opacity: 0;
+  }
+  
+  video{
+	  height: 100%;
+	  width: 100%;
+  }
 
 /*--------------------*/
 /* TEAM */
@@ -1688,6 +1764,18 @@ img {
 		display: block;
 		background: linear-gradient(45deg, #00B5F5, #002A8F);
 		transition: all 265ms ease-out;
+	}
+
+	.video-area {
+		position: relative;
+		z-index: 1;
+		background-position: center center;
+		background-size: cover;
+		border: 20px solid #fff;
+		border-radius: 20px;
+		max-height: 450px;
+		-webkit-box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
+		box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
 	}
 
 

@@ -163,3 +163,34 @@ jQuery(function($){
     wow.init();
 	
 });
+
+
+   
+	/* ----------------------------------------------------------- */
+	/*  8. Video Animation
+	/* ----------------------------------------------------------- */ 
+
+
+var atlanticlight = document.querySelector("#atlanticlight video"),
+playpause = document.getElementById("playpause"),
+lefttoplay = document.getElementById("lefttoplay"),
+righttoplay = document.getElementById("righttoplay"),
+lefttopause = document.getElementById("lefttopause"),
+righttopause = document.getElementById("righttopause");
+atlanticlight.removeAttribute("controls");
+playpause.style.display = "block";
+playpause.addEventListener('click',function(){
+	if (atlanticlight.paused) {
+		atlanticlight.play();
+		playpause.classList.add("playing");
+		lefttopause.beginElement();
+		righttopause.beginElement();
+		
+	} else { 
+		atlanticlight.pause();
+		lefttoplay.beginElement();
+		righttoplay.beginElement();
+		playpause.classList.remove("playing");
+	}
+	
+},false);
