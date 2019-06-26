@@ -563,16 +563,16 @@ img {
 -------------------------- */
 
 .video-area {
-    position: relative;
+	position: relative;
 	z-index: 1;
 	width: 80%;
 	margin: 0 auto;
-    background-position: center center;
-    background-size: cover;
-    border: 20px solid #fff;
-    border-radius: 20px;
+	background-position: center center;
+	background-size: cover;
+	border: 20px solid #fff;
+	border-radius: 20px;
 	height: 650px;
-    -webkit-box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
+	-webkit-box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
 	box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
 	background-color: #fff;
 }
@@ -587,13 +587,14 @@ img {
 	font-size: 0;
 	margin: auto auto;
 	height: 100%;
-  }
-  
-  #atlanticlight video,
-  #atlanticlight button {
+}
+
+#atlanticlight video,
+#atlanticlight button {
 	width: 100%;
-  }
-  #atlanticlight button {
+}
+
+#atlanticlight button {
 	position: relative;
 	top: 50%;
 	-webkit-transform: translateY(-50%);
@@ -602,42 +603,42 @@ img {
 }
 
 
-  #atlanticlight button svg {
+#atlanticlight button svg {
 	width: 25%;
 	margin: auto;
-  }
-  
-  #atlanticlight video,
-  #atlanticlight button {
+}
+
+#atlanticlight video,
+#atlanticlight button {
 	position: absolute;
-  }
-  
-  #atlanticlight button {
+}
+
+#atlanticlight button {
 	background: transparent;
 	outline: none;
 	border: none;
 	cursor: pointer;
-  }
-  
-  #atlanticlight button svg {
-	  margin-top: auto;
+}
+
+#atlanticlight button svg {
+	margin-top: auto;
 	fill: #fff;
 	padding: 3rem;
 	transition: .6s opacity;
-  }
-  
-  #playpause {
+}
+
+#playpause {
 	display: none;
-  }
-  
-  .playing {
+}
+
+.playing {
 	opacity: 0;
-  }
-  
-  video{
-	  height: 100%;
-	  width: 100%;
-  }
+}
+
+video {
+	height: 100%;
+	width: 100%;
+}
 
 /*--------------------*/
 /* TEAM */
@@ -1558,6 +1559,102 @@ img {
 	.contact-area {
 		padding: 0 100px;
 	}
+
+	/*--------------------*/
+	/* HOW IT WORKS */
+	/*--------------------*/
+
+
+	#howit-works {
+		background-attachment: fixed !important;
+		background-image: url("assets/images/howit-works-bg.jpg");
+		background-repeat: repeat;
+		background-size: cover;
+		color: #ffffff;
+		display: inline;
+		float: left;
+		padding: 20px 0;
+		width: 100%;
+	}
+
+
+	.howit-works-area {
+		display: inline;
+		float: left;
+		width: 100%;
+	}
+
+
+
+
+	.howit-works-video {
+		background: rgba(0, 0, 0, 0) url("assets/images/macbook-pro.png") no-repeat scroll center 100% / 100% auto;
+		margin: 0 auto;
+		padding: 70px 0 60px;
+		position: relative;
+		z-index: 10;
+	}
+
+
+
+
+
+
+
+	/* --------------------------
+:: 6.0 Video Area CSS
+-------------------------- */
+
+	.video-area {
+		position: relative;
+		z-index: 1;
+		width: 80%;
+		margin: 250px auto 0;
+		background-position: center center;
+		background-size: cover;
+		border: 20px solid #fff;
+		border-radius: 20px;
+		height: 350px;
+		-webkit-box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
+		box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
+		background-color: #fff;
+	}
+
+
+
+
+
+	#atlanticlight {
+		position: relative;
+		font-size: 0;
+		margin: auto auto;
+		height: 100%;
+	}
+
+	#atlanticlight video,
+	#atlanticlight button {
+		width: 100%;
+	}
+
+	#atlanticlight button {
+		position: relative;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+
+
+	#atlanticlight button svg {
+		width: 25%;
+		margin: auto;
+	}
+
+	video {
+		height: 100%;
+		width: 100%;
+	}
+	
 }
 
 
@@ -1633,6 +1730,8 @@ img {
 	.contact-area {
 		padding: 0 50px;
 	}
+
+
 
 }
 
@@ -1759,7 +1858,7 @@ img {
 		-webkit-transform: scale(1);
 		content: " ";
 		width: 40px;
-		height:40px;
+		height: 40px;
 		border-radius: 100%;
 		display: block;
 		background: linear-gradient(45deg, #00B5F5, #002A8F);
@@ -1777,6 +1876,102 @@ img {
 		-webkit-box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
 		box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
 	}
+
+	/*--------------------*/
+	/* HOW IT WORKS */
+	/*--------------------*/
+
+
+	#howit-works {
+		background-attachment: fixed !important;
+		background-image: url("assets/images/howit-works-bg.jpg");
+		background-repeat: repeat;
+		background-size: cover;
+		color: #ffffff;
+		display: inline;
+		float: left;
+		padding: 20px 0;
+		width: 100%;
+	}
+
+
+	.howit-works-area {
+		display: inline;
+		float: left;
+		width: 100%;
+	}
+
+
+
+
+	.howit-works-video {
+		background: rgba(0, 0, 0, 0) url("assets/images/macbook-pro.png") no-repeat scroll center 100% / 100% auto;
+		margin: 0 auto;
+		padding: 70px 0 60px;
+		position: relative;
+		z-index: 10;
+	}
+
+
+
+
+
+
+
+	/* --------------------------
+:: 6.0 Video Area CSS
+-------------------------- */
+
+	.video-area {
+		position: relative;
+		z-index: 1;
+		width: 100%;
+		margin: 250px auto 0;
+		background-position: center center;
+		background-size: cover;
+		border: 20px solid #fff;
+		border-radius: 20px;
+		height: 300px;
+		-webkit-box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
+		box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
+		background-color: #fff;
+	}
+
+
+
+
+
+	#atlanticlight {
+		position: relative;
+		font-size: 0;
+		margin: auto auto;
+		height: 100%;
+	}
+
+	#atlanticlight video,
+	#atlanticlight button {
+		width: 100%;
+	}
+
+	#atlanticlight button {
+		position: relative;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+
+
+	#atlanticlight button svg {
+		width: 25%;
+		margin: auto;
+	}
+
+	video {
+		height: 100%;
+		width: 100%;
+	}
+	
 
 
 }
