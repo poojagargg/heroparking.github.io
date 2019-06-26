@@ -19,7 +19,8 @@
   <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" />
   <!-- Animate css -->
   <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" />
 
   <!-- Theme color -->
   <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
@@ -62,7 +63,7 @@
         <li><a href="#aa-about-us "><i class="fa fa-book"></i><span>About Us</span></a></li>
         <li><a href="#features"><i class="fa fa-server"></i><span>Features</span></a></li>
         <li><a href="#howit-works"><i class="fa fa-hourglass"></i><span>How it Works</span></a></li>
-        <li><a href="#pricing-table"><i class="fa fa-usd"></i><span>Team</span></a></li>
+        <li><a href="#team"><i class="fa fa-usd"></i><span>Team</span></a></li>
         <li><a href="#screenshot"><i class="fa fa-image"></i><span>Screenshots</span></a></li>
         <li><a href="#download-app"><i class="fa fa-download"></i><span>Download</span></a></li>
         <li><a href="#testimonial"><i class="fa fa-certificate"></i><span>Testimonials</span></a></li>
@@ -272,19 +273,45 @@
           <div class="col-md-12">
             <div class="title-area wow fadeInLeft">
               <h2 class="title">How it <span>Works</span></h2>
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                alteration in some form, by injected humour</p>
+              <p>A simple go through video demonstrating the easy working of the Parking Hero App</p>
             </div>
           </div>
-          <div class="col-md-12">
-            <div class="howit-works-video">
-              <iframe src="https://player.vimeo.com/video/33790882" width="428" height="276" frameborder="0"
-                webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <div class="col-md-12" class="howitvideo">
+            <div >
+              <!-- ***** Video Area Start ***** -->
+              <div class="video-section">
+
+                <!-- Video Area Start -->
+                <div class="video-area">
+                  <div id="atlanticlight">
+                    <video controls>
+                      <source src="assets/images/finalpitchvideo.mp4">
+                    </video>
+                    <button>
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" id="playpause"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <title>Play</title>
+                        <polygon points="12,0 25,11.5 25,39 12,50" id="leftbar" />
+                        <polygon points="25,11.5 39.7,24.5 41.5,26 39.7,27.4 25,39" id="rightbar" />
+                        <animate to="7,3 19,3 19,47 7,47" id="lefttopause" xlink:href="#leftbar" attributeName="points"
+                          dur=".3s" begin="indefinite" fill="freeze" />
+                        <animate to="12,0 25,11.5 25,39 12,50" id="lefttoplay" xlink:href="#leftbar"
+                          attributeName="points" dur=".3s" begin="indefinite" fill="freeze" />
+                        <animate to="31,3 43,3 43,26 43,47 31,47" id="righttopause" xlink:href="#rightbar"
+                          attributeName="points" dur=".3s" begin="indefinite" fill="freeze" />
+                        <animate to="25,11.5 39.7,24.5 41.5,26 39.7,27.4 25,39" id="righttoplay" xlink:href="#rightbar"
+                          attributeName="points" dur=".3s" begin="indefinite" fill="freeze" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <!-- ***** Video Area End ***** -->
+
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
     </div>
   </section>
   <!-- End how it works -->
@@ -302,9 +329,9 @@
               <div class="frontside">
                 <div class="card">
                   <div class="card-body text-center">
-                    <p><img class=" img-fluid" src="assets/images/download.jfif" alt="card image">
+                    <p><img class=" img-fluid" src="assets/images/member.gif" alt="card image">
                     </p>
-                    <h4 class="card-title">Member-Name</h4>
+                    <h4 class="card-title">Lavannya Goyal</h4>
                     <p class="card-text">Frontend Developer</p>
                   </div>
                 </div>
@@ -312,7 +339,7 @@
               <div class="backside">
                 <div class="card">
                   <div class="card-body text-center mt-4">
-                    <h4 class="card-title">Member-Name</h4>
+                    <h4 class="card-title">Lavannnya Goyal</h4>
                     <p class="card-text">A small paragraph telling about the role of team member in the product or
                       anything else</p>
                     <ul class="list-inline">
@@ -351,109 +378,9 @@
               <div class="frontside">
                 <div class="card">
                   <div class="card-body text-center">
-                    <p><img class=" img-fluid" src="assets/images/download (1).jfif" alt="card image">
+                    <p><img class=" img-fluid" src="assets/images/mem2.gif" alt="card image">
                     </p>
-                    <h4 class="card-title">Member-Name</h4>
-                    <p class="card-text">Web Developer</p>
-                  </div>
-                </div>
-              </div>
-              <div class="backside">
-                <div class="card">
-                  <div class="card-body text-center mt-4">
-                    <h4 class="card-title">Member-Name</h4>
-                    <p class="card-text">A small paragraph telling about the role of team member in the product or
-                      anything else</p>
-                    <ul class="list-inline">
-                      <li class="list-inline-item">
-                        <a class="social-icon text-xs-center" target="_blank" href="#">
-                          <i class="fa fa-facebook"></i>
-                        </a>
-                      </li>
-                      <li class="list-inline-item">
-                        <a class="social-icon text-xs-center" target="_blank" href="#">
-                          <i class="fa fa-instagram"></i>
-                        </a>
-                      </li>
-                      <li class="list-inline-item">
-                        <a class="social-icon text-xs-center" target="_blank" href="#">
-                          <i class="fa fa-github"></i>
-                        </a>
-                      </li>
-                      <li class="list-inline-item">
-                        <a class="social-icon text-xs-center" target="_blank" href="#">
-                          <i class="fa fa-linkedin"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- ./Team member -->
-
-        <!-- Team member -->
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-            <div class="mainflip">
-              <div class="frontside">
-                <div class="card">
-                  <div class="card-body text-center">
-                    <p><img class=" img-fluid" src="assets/images/download (1).jfif" alt="card image">
-                    </p>
-                    <h4 class="card-title">Member-Name</h4>
-                    <p class="card-text">Web Designer</p>
-                  </div>
-                </div>
-              </div>
-              <div class="backside">
-                <div class="card">
-                  <div class="card-body text-center mt-4">
-                    <h4 class="card-title">Member-Name</h4>
-                    <p class="card-text">A small paragraph telling about the role of team member in the product or
-                      anything else</p>
-                    <ul class="list-inline">
-                      <li class="list-inline-item">
-                        <a class="social-icon text-xs-center" target="_blank" href="#">
-                          <i class="fa fa-facebook"></i>
-                        </a>
-                      </li>
-                      <li class="list-inline-item">
-                        <a class="social-icon text-xs-center" target="_blank" href="#">
-                          <i class="fa fa-instagram"></i>
-                        </a>
-                      </li>
-                      <li class="list-inline-item">
-                        <a class="social-icon text-xs-center" target="_blank" href="#">
-                          <i class="fa fa-github"></i>
-                        </a>
-                      </li>
-                      <li class="list-inline-item">
-                        <a class="social-icon text-xs-center" target="_blank" href="#">
-                          <i class="fa fa-linkedin"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- ./Team member -->
-
-        <!-- Team member -->
-        <div class="col-xs-12 col-sm-6 col-md-3">
-          <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-            <div class="mainflip">
-              <div class="frontside">
-                <div class="card">
-                  <div class="card-body text-center">
-                    <p><img class=" img-fluid" src="assets/images/download (2).jfif" alt="card image">
-                    </p>
-                    <h4 class="card-title">Member-Name</h4>
+                    <h4 class="card-title">Avishi Goyal</h4>
                     <p class="card-text">Android Developer</p>
                   </div>
                 </div>
@@ -461,7 +388,107 @@
               <div class="backside">
                 <div class="card">
                   <div class="card-body text-center mt-4">
-                    <h4 class="card-title">Member-Name</h4>
+                    <h4 class="card-title">Avishi Goyal</h4>
+                    <p class="card-text">A small paragraph telling about the role of team member in the product or
+                      anything else</p>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank" href="#">
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank" href="#">
+                          <i class="fa fa-instagram"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank" href="#">
+                          <i class="fa fa-github"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank" href="#">
+                          <i class="fa fa-linkedin"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ./Team member -->
+
+        <!-- Team member -->
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+            <div class="mainflip">
+              <div class="frontside">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p><img class=" img-fluid" src="assets/images/mem3.gif" alt="card image">
+                    </p>
+                    <h4 class="card-title">Anviksha Dixit</h4>
+                    <p class="card-text">Web Designer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="backside">
+                <div class="card">
+                  <div class="card-body text-center mt-4">
+                    <h4 class="card-title">Anviksha Dixit</h4>
+                    <p class="card-text">A small paragraph telling about the role of team member in the product or
+                      anything else</p>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank" href="#">
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank" href="#">
+                          <i class="fa fa-instagram"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank" href="#">
+                          <i class="fa fa-github"></i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a class="social-icon text-xs-center" target="_blank" href="#">
+                          <i class="fa fa-linkedin"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ./Team member -->
+
+        <!-- Team member -->
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+            <div class="mainflip">
+              <div class="frontside">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p><img class=" img-fluid" src="assets/images/mem4.gif" alt="card image">
+                    </p>
+                    <h4 class="card-title">Medha Gulati</h4>
+                    <p class="card-text">Android Developer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="backside">
+                <div class="card">
+                  <div class="card-body text-center mt-4">
+                    <h4 class="card-title">Medha Gulati</h4>
                     <p class="card-text">A small paragraph telling about the role of team member in the product or
                       anything else</p>
                     <ul class="list-inline">
@@ -507,8 +534,7 @@
         <div class="col-md-12">
           <div class="title-area wow fadeInUp">
             <h2 class="title">App <span>Screenshots</span></h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour</p>
+            <p></p>
           </div>
         </div>
         <div class="col-md-12">
@@ -594,23 +620,16 @@
           <div class="col-md-12">
             <div class="title-area wow fadeInUp">
               <h2 class="title">Download <span>App</span></h2>
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                alteration in some form, by injected humour</p>
+              <p>Search parking space,
+                Book the Space,
+                Pay for the parking,
+                Park your vehicle.</p>
             </div>
           </div>
           <!-- Start download app content -->
           <div class="col-md-12">
             <div class="download-app-content">
-              <!-- Start single download -->
-              <a class="single-download wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s" href="#">
-                <div class="download-icon">
-                  <i class="fa fa-windows"></i>
-                </div>
-                <div class="download-content">
-                  <p>Available on the</p>
-                  <span>Windows Store</span>
-                </div>
-              </a>
+
               <!-- Start single download -->
               <a class="single-download wow fadeInLeft" data-wow-duration="0.75s" data-wow-delay="0.75s" href="#">
                 <div class="download-icon">
@@ -621,16 +640,7 @@
                   <span>Play Store</span>
                 </div>
               </a>
-              <!-- Start single download -->
-              <a class="single-download wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s" href="#">
-                <div class="download-icon">
-                  <i class="fa fa-apple"></i>
-                </div>
-                <div class="download-content">
-                  <p>Available on the</p>
-                  <span>Apple Store</span>
-                </div>
-              </a>
+
             </div>
           </div>
         </div>
@@ -639,49 +649,7 @@
   </section>
   <!-- End download app -->
 
-  <!-- Start testimonial -->
-  <section id="testimonial">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="title-area wow fadeInLeft">
-            <h2 class="title">Clients <span>Feedback</span></h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour</p>
-          </div>
-        </div>
-        <div class="col-md-12">
-          <div class="testimonial-slider">
-            <!-- single slide -->
-            <div class="testimonial-single-slide">
-              <img class="testi-avatar" src="assets/images/testi1.jpg" alt="testimonial img">
-              <p class="testi-name">Samantha</p>
-              <p class="testi-company">Google.com</p>
-              <p class="testi-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry ue ipsa
-                quae ab illo inventore veritatis et quasi</p>
-            </div>
-            <!-- single slide -->
-            <div class="testimonial-single-slide">
-              <img class="testi-avatar" src="assets/images/testi3.jpg" alt="testimonial img">
-              <p class="testi-name">Alexander</p>
-              <p class="testi-company">Twitter.com</p>
-              <p class="testi-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry ue ipsa
-              </p>
-            </div>
-            <!-- single slide -->
-            <div class="testimonial-single-slide">
-              <img class="testi-avatar" src="assets/images/testi2.jpg" alt="testimonial img">
-              <p class="testi-name">Victoria</p>
-              <p class="testi-company">Facebook.com</p>
-              <p class="testi-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry ue ipsa
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End testimonial -->
+  
 
   <!-- Start subscribe -->
   <section id="subscribe">
@@ -691,8 +659,7 @@
           <div class="col-md-12">
             <div class="title-area wow fadeInUp">
               <h2 class="title">Subscribe Our <span>Newsletter</span></h2>
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                alteration in some form, by injected humour</p>
+              <p></p>
             </div>
           </div>
           <!-- Start download app content -->
@@ -718,7 +685,7 @@
         <div class="col-md-12">
           <div class="title-area">
             <h2 class="title">Get in <span>Touch</span></h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+            <p></p>
           </div>
         </div>
         <div class="col-md-12">
@@ -752,16 +719,23 @@
           <div class="footer-social">
             <div class="social-container">
               <ul class="social-icons">
-                  <li><a href="https://www.instagram.com/theparkinghero"><i class="fa fa-instagram"></i></a></li>
-                  <li><a href="https://www.twitter.com/hero_parking"><i class="fa fa-twitter"></i></a></li>
-                  <li><a href="https://www.facebook.com/Parking-Hero-479676936166352/"><i class="fa fa-facebook"></i></a></li>
-                  <li><a href="https://www.youtube.com/channel/UCXAGtCPg3csUljx0WpjTqsw"><i class="fa fa-youtube"></i></a></li>
+
+                <li><a href="https://www.instagram.com/theparkinghero"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.twitter.com/hero_parking"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/Parking-Hero-479676936166352/"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li><a href="https://www.youtube.com/channel/UCXAGtCPg3csUljx0WpjTqsw"><i class="fa fa-youtube"></i></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/parking-hero-254728189/"><i
+                      class="fa fa-linkedin"></i></a>
+                </li>
               </ul>
+            </div>
+
           </div>
 
         </div>
       </div>
-    </div>
   </footer>
   <!-- End -->
 
