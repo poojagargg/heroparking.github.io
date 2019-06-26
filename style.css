@@ -13,11 +13,11 @@ Tags: light, white, single page, multipurpose, one page, custom-colors, Bootstra
 /* Table of Content
 ==================================================
 #BASIC TYPOGRAPHY
-#HEADER	
-#MENU 
+#HEADER
+#MENU
 #FEATURES
 #HOW IT WORKS
-#PRICING TABLE  
+#PRICING TABLE
 #SCREENSHOT
 #DOWNLOAD
 #TESTIMONIAL
@@ -73,7 +73,7 @@ h6 {
 }
 
 h2 {
-	color: #fff;
+	color: #777;
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 40px;
@@ -510,7 +510,19 @@ img {
 	padding-right: 115px;
 }
 
+/*--------------------*/
+/* aa-about-us */
+/*--------------------*/
 
+
+#aa-about-us{
+	background-color: #eeeeee;
+}
+
+.aa-title .title{
+	border-bottom: 2px solid #ccc;
+	display: inline-block;
+}
 /*--------------------*/
 /* HOW IT WORKS */
 /*--------------------*/

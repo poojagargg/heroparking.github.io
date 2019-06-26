@@ -26,6 +26,29 @@ Author URI : http://www.markups.io/
   color: #03a9f4;
 }
 
+.aa-title .title span{
+  color: #03a9f4;
+}
+
+.aa-title .title::before {
+  background-color: #03a9f4;
+}
+.aa-title .title::before {
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 60px;
+    width: 105px;
+}
+.aa-title .title{
+    font-size: 33px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    position: relative;
+    text-transform: uppercase;
+}
+
 .title-area .title::before {
   background-color: #03a9f4;
 }
@@ -35,7 +58,7 @@ Author URI : http://www.markups.io/
 }
 
 .features-list li:hover .fa{
-  background-color: #03a9f4;  
+  background-color: #03a9f4;
 }
 
 .features-list i:hover{
@@ -48,7 +71,7 @@ Author URI : http://www.markups.io/
 }
 
 .single-plan-head p > span {
-  color: #03a9f4; 
+  color: #03a9f4;
 }
 
 .single-plan-bottom .signup-btn {
@@ -56,12 +79,12 @@ Author URI : http://www.markups.io/
 }
 
 .screenshots-slide li a:hover{
-  border-color: #03a9f4;  
+  border-color: #03a9f4;
 }
 
 .screenshots-slide .slick-dots li button:hover,
 .screenshots-slide .slick-dots li.slick-active button {
-  background-color: #03a9f4;  
+  background-color: #03a9f4;
 }
 
 .single-download:hover,
@@ -70,19 +93,19 @@ Author URI : http://www.markups.io/
 }
 
 .testi-company{
-  color: #03a9f4;  
+  color: #03a9f4;
 }
 
-.testi-text:before{  
+.testi-text:before{
   color: #03a9f4;
 }
 
 .testimonial-slider .slick-dots li.slick-active {
-  background-color: #03a9f4; 
+  background-color: #03a9f4;
 }
 
 .subcr-form i {
-  color: #03a9f4;  
+  color: #03a9f4;
 }
 
 .subcr-form .subcr-btn {
@@ -100,7 +123,7 @@ Author URI : http://www.markups.io/
 
 .home-btn a:hover,
 .home-btn a:focus{
-  color: #03a9f4; 
+  color: #03a9f4;
 }
 
 /*=======================================
