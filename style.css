@@ -516,12 +516,32 @@ img {
 
 
 #aa-about-us{
-	background-color: #eeeeee;
+	background-color: #eeee;
 }
 
 .aa-title .title{
 	border-bottom: 2px solid #ccc;
 	display: inline-block;
+}
+
+.aa-title {
+	text-align:  center;
+}	
+
+ .aa-about-us-bottom .about-image {
+	width: 100%;
+	position: relative;
+    left: 130px;
+    bottom: 240px;
+}
+
+.aa-about-us-bottom .content
+{
+	position: relative;
+	left:  550px;
+}
+.col-md-5{
+	float: left;
 }
 /*--------------------*/
 /* HOW IT WORKS */
@@ -1739,7 +1759,7 @@ input[type="radio"]:checked + label:after {
 		height: 100%;
 		width: 100%;
 	}
-	
+
 }
 
 
@@ -2041,7 +2061,7 @@ input[type="radio"]:checked + label:after {
 		height: 100%;
 		width: 100%;
 	}
-	
+
 
 
 }
