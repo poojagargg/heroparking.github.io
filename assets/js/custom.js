@@ -21,6 +21,21 @@
 	
 **/
 
+$(function(){
+    $(".dropdown").hover(            
+            function() {
+                $('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
+                $(this).toggleClass('open');
+                $('b', this).toggleClass("caret caret-up");                
+            },
+            function() {
+                $('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
+                $(this).toggleClass('open');
+                $('b', this).toggleClass("caret caret-up");                
+            });
+    });
+    
+
 jQuery(function($){
 
 	/* ----------------------------------------------------------- */
@@ -165,6 +180,11 @@ jQuery(function($){
 });
 
 
+$('ul.nav li.dropdown').hover(function() {
+	$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+  }, function() {
+	$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+  });
    
 	/* ----------------------------------------------------------- */
 	/*  8. Video Animation
@@ -194,3 +214,18 @@ playpause.addEventListener('click',function(){
 	}
 	
 },false);
+
+
+   
+	/* ----------------------------------------------------------- */
+	/*  9. NAVBAR
+	/* ----------------------------------------------------------- */ 
+	function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+		  x.className += " responsive";
+		} else {
+		  x.className = "topnav";
+		}
+	  }
+

@@ -269,38 +269,22 @@ img {
 /*--------------------*/
 
 
-#close {
-	color: #fff;
-	cursor: pointer;
-	font-size: 15px;
-	font-weight: bold;
-	height: 20px;
-	position: absolute;
-	right: 25px;
-	text-align: center;
-	top: 20px;
-	width: 20px;
-}
+
 
 
 #menu-btn {
 	color: #5b7182;
 	font-size: 30px;
-	position: fixed;
-	right: 75px;
-	top: 50px;
-	z-index: 99;
+	
 }
 
 
 .main-nav {
 	background-color: #1d252e;
 	position: fixed;
-	padding-top: 50px;
-	width: 260px;
-	height: 100%;
+	width: 100%;
 	top: 0;
-	right: -260px;
+	left: 0;
 	z-index: 1000;
 }
 
@@ -352,7 +336,6 @@ img {
 	-moz-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
-
 
 /*--------------------*/
 /* FEATURES */
@@ -1002,117 +985,6 @@ video {
 }
 
 
-/*--------------------*/
-/* TESTIMONIAL */
-/*--------------------*/
-
-
-#testimonial {
-	background-color: #fff;
-	display: inline;
-	float: left;
-	padding: 70px 0;
-	width: 100%;
-}
-
-
-.testimonial-slider {
-	background-color: #f7f7f7;
-	display: inline;
-	float: left;
-	padding: 40px;
-	width: 100%;
-	border: 1px solid #ddd;
-}
-
-
-.testimonial-single-slide {
-	display: inline;
-	float: left;
-	padding: 75px 50px 20px;
-	text-align: center;
-	width: 100%;
-}
-
-
-.testi-avatar {
-	background: #fff none repeat scroll 0 0;
-	border: 2px solid #ddd;
-	border-radius: 50%;
-	height: 90px;
-	display: inline-block !important;
-	margin-top: -80px;
-	padding: 2px;
-	width: 90px;
-}
-
-
-.testi-name {
-	color: #404244;
-	font-size: 18px;
-	letter-spacing: 1px;
-	margin: 10px 0 0;
-	text-align: center;
-	text-transform: uppercase;
-}
-
-
-.testi-company {
-	font-size: 14px;
-	text-align: center;
-}
-
-
-.testi-text {
-	color: #8d959d;
-	display: inline-block;
-	font-size: 20px;
-	font-style: italic;
-	font-weight: 700;
-	line-height: 25px;
-	margin: 0 auto;
-	position: relative;
-	text-align: center;
-}
-
-
-.testi-text:before {
-	content: '\f10d';
-	position: absolute;
-	font-family: fontAwesome;
-	left: -10px;
-	top: -20px;
-}
-
-
-.testimonial-slider .slick-dots {
-	bottom: 15px;
-	margin-left: -40px;
-}
-
-
-.testimonial-slider .slick-dots li {
-	background: #ccc none repeat scroll 0 0;
-	border-radius: 50%;
-	color: #fff;
-	cursor: pointer;
-	display: inline-block;
-	height: 20px;
-	margin: 0 5px;
-	padding: 0;
-	position: relative;
-	width: 20px;
-}
-
-
-.testimonial-slider .slick-dots li.slick-active {
-	opacity: 1;
-}
-
-
-.testimonial-slider .slick-dots li button::before {
-	display: none;
-}
 
 
 /*--------------------*/
@@ -2219,3 +2091,5 @@ input[type="radio"]:checked + label:after {
 
 
 @media(max-width:320px) {}
+
+

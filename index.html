@@ -19,15 +19,17 @@
   <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" />
   <!-- Animate css -->
   <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Theme color -->
   <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
 
   <!-- Main Style -->
   <link href="style.css" rel="stylesheet">
-
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   <!-- Fonts -->
 
   <!-- Open Sans for body font -->
@@ -54,23 +56,50 @@
 
 
   <!-- Start menu area -->
-  <div class="nav-area">
-    <a id="menu-btn" href="#"><i class="fa fa-bars"></i></a>
-    <nav class="main-nav" id="main-menu">
-      <span class="fa fa-remove" id="close"></span>
-      <ul>
-        <li> <a href="#header"><i class="fa fa-home"></i><span>Home</span></a></li>
-        <li><a href="#aa-about-us"><i class="fa fa-book"></i><span>About Us</span></a></li>
-        <li><a href="#features"><i class="fa fa-server"></i><span>Features</span></a></li>
-        <li><a href="#howit-works"><i class="fa fa-hourglass"></i><span>How it Works</span></a></li>
-        <li><a href="#team"><i class="fa fa-usd"></i><span>Team</span></a></li>
-        <li><a href="#screenshot"><i class="fa fa-image"></i><span>Screenshots</span></a></li>
-        <li><a href="#download-app"><i class="fa fa-download"></i><span>Download</span></a></li>
-        <li><a href="#testimonial"><i class="fa fa-certificate"></i><span>Testimonials</span></a></li>
-        <li><a href="#contact"><i class="fa fa-envelope-o"></i><span>Contact</span></a></li>
-      </ul>
-    </nav>
+  <div class="container">
+    <div class="row">
+      <nav class="navbar navbar-default main-nav" role="navigation">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle menu-btn" data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Parking Hero</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#aa-about-us"><i class="fa fa-book"></i><span>About Us</span></a></li>
+            <li><a href="#features"><i class="fa fa-server"></i><span>Features</span></a></li>
+            <li><a href="#howit-works"><i class="fa fa-hourglass"></i><span>How it Works</span></a></li>
+            <li><a href="#team"><i class="fa fa-usd"></i><span>Team</span></a></li>
+            <li><a href="#screenshot"><i class="fa fa-image"></i><span>Screenshots</span></a></li>
+            <li><a href="#download-app"><i class="fa fa-download"></i><span>Download</span></a></li>
+            <li><a href="#contact"><i class="fa fa-envelope-o"></i><span>Contact</span></a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Product <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">For Customers</a></li>
+                <li><a href="#"> For Stakeholders</a></li>
+              </ul>
+            </li>
+          </ul>
+
+
+        </div><!-- /.navbar-collapse -->
+
+      </nav>
+
+    </div>
   </div>
+
+
   <!-- End menu area -->
 
   <!-- Start header section -->
@@ -133,33 +162,36 @@
             <div class="row">
               <div class="col-md-7">
                 <div class="wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
-                <div class="aa-about-us-right">
-                  <div class="aa-title">
-                    <h2 class="title" style="margin-top: 20px;">About <span>Us</span></h2>
-                    <p style="padding-top: 50px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat ab dignissimos vitae
-                       maxime adipisci blanditiis rerum quae quos! Id at rerum maxime modi fugit vero corrupti,
-                       ad atque sit laborum ipsum sunt blanditiis suscipit odio, aut nostrum assumenda
-                       nobis rem a maiores temporibus non commodi laboriosam, doloremque expedita! Corporis, provident?</p>
+                  <div class="aa-about-us-right">
+                    <div class="aa-title">
+                      <h2 class="title" style="margin-top: 20px;">About <span>Us</span></h2>
+                      <p style="padding-top: 50px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
+                        ab dignissimos vitae
+                        maxime adipisci blanditiis rerum quae quos! Id at rerum maxime modi fugit vero corrupti,
+                        ad atque sit laborum ipsum sunt blanditiis suscipit odio, aut nostrum assumenda
+                        nobis rem a maiores temporibus non commodi laboriosam, doloremque expedita! Corporis, provident?
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-md-5" style="padding-top: 50px;">
-                
-                <div class="aa-about-us-bottom">
-                 <div class="content wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
-                  <ul>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, blanditiis.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, blanditiis.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>
-                  </ul>
-                </div>
-                 <div class="about-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s" style="width: 300px;">
-                    <img src="assets/images/Nexus-6-MockUp-group.png" alt="iphone grpup img" style="width:100%;">
+                <div class="col-md-5" style="padding-top: 50px;">
+
+                  <div class="aa-about-us-bottom">
+                    <div class="content wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
+                      <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, blanditiis.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, blanditiis.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>
+                      </ul>
+                    </div>
+                    <div class="about-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s"
+                      style="width: 300px;">
+                      <img src="assets/images/Nexus-6-MockUp-group.png" alt="iphone grpup img" style="width:100%;">
+                    </div>
                   </div>
-                </div>
 
                 </div>
               </div>
@@ -716,12 +748,12 @@
                 <label for="radio2">No</label>
               </div>
               <div class="form-group radio-form">
-                  <p>Do you want to integrate our system?</p>
-                  <input type="radio" class="form-control" id="radio3" name="integrate" required />
-                  <label for="radio3">Yes</label>
-                  <input type="radio" class="form-control" id="radio4" name="integrate" required />
-                  <label for="radio4">No</label>
-                </div>
+                <p>Do you want to integrate our system?</p>
+                <input type="radio" class="form-control" id="radio3" name="integrate" required />
+                <label for="radio3">Yes</label>
+                <input type="radio" class="form-control" id="radio4" name="integrate" required />
+                <label for="radio4">No</label>
+              </div>
               <div class="send-area">
                 <button type="submit" class="send-btn">Send Now</button>
               </div>
