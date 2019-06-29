@@ -1,0 +1,358 @@
+body,
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    overflow-x: hidden !important;
+    color: #838282;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #2f2f2f;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Cabin', sans-serif;
+}
+
+h2 {
+    color: #777;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+img {
+    border: none;
+}
+
+/* Preloader */
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #008080;
+    /* change if the mask should have another color then white */
+    z-index: 99999;
+    /* makes sure it stays on top */
+}
+
+#status {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    /* centers the loading animation horizontally one the screen */
+    top: 50%;
+    /* centers the loading animation vertically one the screen */
+    background-image: url(assets/images/loader.gif);
+    /* path to your loading animation */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+    /* is width and height divided by two */
+}
+
+
+/*--------------------*/
+/* MENU */
+/*--------------------*/
+
+
+.navigation{
+    float: left;
+	display: inline;
+    width: 100%;
+    position: fixed;
+    display: block;
+    z-index: 100000;
+	
+}
+
+
+#menu-btn {
+    color: #008080;
+    font-size: 30px;
+
+}
+
+
+.main-nav {
+    background-color: #1d252e;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+.main-nav ul li a {
+    color: #008080;
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px 35px;
+    text-decoration: none;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.main-nav ul li>a>i {
+    padding-right: 10px;
+}
+
+
+.main-nav a:hover,
+.main-nav a:focus {
+    background: #182029;
+}
+
+
+.main-nav a:active {
+    background: #182029;
+}
+
+
+.main-nav.menu-open {
+    right: 0px;
+}
+
+
+.cbp-spmenu-push {
+    overflow-x: hidden;
+    position: relative;
+    left: 0;
+}
+
+
+.main-nav,
+.cbp-spmenu-push {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+
+/*--------------------*/
+/* CUSTOMERS */
+/*--------------------*/
+
+#aa-about-us{
+	display: inline;
+	float: left;
+    width: 100%;
+    margin: 10% 0 5%;
+}
+.aa-title .title span{
+    color: #008080;
+
+}
+
+.card {
+    height:40%;;
+    width: 80%;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.card .card_image {
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+
+.card .card_image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+.card .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -80px;
+    height: 40px;
+}
+
+.card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+        -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+.title-white {
+    color: white;
+}
+
+.title-black {
+    color: black;
+}
+
+/*--------------------*/
+/* FOOTER */
+/*--------------------*/
+
+
+#footer {
+    position: ;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #1d252e;
+    display: inline;
+    float: left;
+    padding: 40px 0 0;
+}
+
+
+.footer-social {
+    display: inline;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+
+.footer-social a {
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.footer-social .title-area h2 {
+    color: #fff;
+}
+
+.footer-text {
+    display: inline;
+    float: left;
+    padding: 10px 0 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+.footer-text p {
+    margin-bottom: 0;
+}
+
+
+.footer-text p a {
+    color: #838282;
+    text-decoration: none;
+}
+
+
+/*--------------------*/
+/* Social Media Links */
+/*--------------------*/
+
+.social-container {
+    text-align: center;
+}
+
+.social-icons {
+    list-style: none;
+    margin: 1em;
+    align-content: center;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin: 0.15em;
+    position: relative;
+    font-size: 1.2em;
+    vertical-align: middle;
+}
+
+.social-icons i {
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transition: all 265ms ease-out;
+}
+
+.social-icons a {
+    display: inline-block;
+}
+
+.social-icons a:before {
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    content: " ";
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: block;
+    background: linear-gradient(45deg, #008080, #008080);
+    transition: all 265ms ease-out;
+}
+
+.social-icons a:hover:before {
+    transform: scale(0);
+    transition: all 265ms ease-in;
+}
+
+.social-icons a:hover i {
+    transform: scale(2.2);
+    -ms-transform: scale(2.2);
+    -webkit-transform: scale(2.2);
+    color: #008080;
+    background: -webkit-linear-gradient(45deg, #008080, #008080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 265ms ease-in;
+}
+
+.copyright {
+    border-top: 1px #fff;
+    bottom: 0;
+    width: 100%;
+    background-color: #1d252e;
+}
+
+.title-area .title span {
+    color: #008080;
+}
+
+
+
+
